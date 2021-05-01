@@ -14,7 +14,7 @@ function dateValidation(date,plate,hour){
     }
 }
 
-function plateValidation(plate,day){
+function plateValidation(plate,day,hour){
     //Validacion por placa
     var finalPNum= plate.charAt(plate.length-1);
     var mov;
@@ -24,10 +24,10 @@ function plateValidation(plate,day){
     }
     if(mov==day){
         hourValidation(hour);
-        //return finalPNum;     // PRUEBAS JEST
+        //return false;     // PRUEBAS JEST
     }else{
         window.alert("PUEDES CIRCULAR LIBREMENTE");
-        //return finalPNum;     // PRUEBAS JEST
+        //return true;     // PRUEBAS JEST
     }
 
 }

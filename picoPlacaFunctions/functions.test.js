@@ -9,10 +9,10 @@ test('Valida dias de la semana', ()=>{
 
 
 /*test('Valida placa del vehiculo', ()=>{
-    expect(functions('PBD9180')).toBe(0)
+    expect(functions('PBD9180',1,'12:30')).toBe(false)
 })*/
 
 
 test('Valida hora de salida', ()=>{
-    expect(functions('02/02/2020')).toBe(7)
+    expect(functions('14:00')).toBe(true)
 })
