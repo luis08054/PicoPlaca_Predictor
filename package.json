@@ -1,0 +1,23 @@
+{
+  "name": "PicoPlaca_Predictor",
+  "version": "1.0.0",
+  "description": "Predictor de pico y placa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis08054/PicoPlaca_Predictor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis08054/PicoPlaca_Predictor/issues"
+  },
+  "homepage": "https://github.com/luis08054/PicoPlaca_Predictor#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
