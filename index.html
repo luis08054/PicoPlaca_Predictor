@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
     <script type="text/javascript" src="picoPlacaFunctions/functions.js"></script>
+    <script type="text/javascript" src="picoPlacaFunctions/validations.js"></script>
 <body>
-
-    <h2>Predictor Pico y Placa</h2>
-    <label>PLACA:</label><br>
-    <input type="text" id="plateInp"><br><br>
-    <label>FECHA:</label><br>
-    <input type="text" id="dateInp"><br><br>
-    <label>HORA:</label><br>
-    <input type="text" id="hourInp"><br><br>
-    <button id="boton" type="reset" onclick="getInformation()">Consultar</button>
-
+    <form >
+        <h2>PICO Y PLACA</h2>
+        <label>Placa:</label><br>
+        <input type="text" id="plateInp" required minlength="7" maxlength="7"><br><br>
+        <label>Fecha de Salida:</label><br>
+        <input type="text" id="dateInp" required minlength="10" maxlength="10"><br><br>
+        <label>Hora de Salida:</label><br>
+        <input type="text" id="hourInp" required minlength="5" maxlength="5"><br><br>
+        <button id="button" onclick="getInformation()" >Consultar</button>
+    </form>
 </body>
 </html>
