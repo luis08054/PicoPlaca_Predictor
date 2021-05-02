@@ -34,3 +34,12 @@ input{
     border-radius: 0.7vw;
     width: 15vw;
 }
+
+.input-plate{
+    text-transform:uppercase;
+}
+
+::placeholder {
+    color: black;
+    opacity: 40%;
+  }

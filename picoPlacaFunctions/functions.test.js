@@ -13,6 +13,6 @@ test('Valida dias de la semana', ()=>{
 })*/
 
 
-test('Valida hora de salida', ()=>{
+/*test('Valida hora de salida', ()=>{
     expect(functions('14:00')).toBe(true)
-})
+})*/

@@ -1,6 +1,6 @@
 function getInformation(){
     //Creacio objetos y recuperacion de informacion
-   // console.log = function() {}
+    console.log = function() {}
     if(formValidation()){
         function Vehicle(plate){
             this.plate=plate;

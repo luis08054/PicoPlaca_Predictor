@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="picoPlacaFunctions/index.js"></script>
     <script type="text/javascript" src="picoPlacaFunctions/functions.js"></script>
     <script type="text/javascript" src="picoPlacaFunctions/validations.js"></script>
@@ -10,11 +11,11 @@
     </form>
     <form class="secondForm ">
         <label>Placa:</label>
-        <input type="text" id="plateInp" required minlength="7" maxlength="7"><br><br><br>
+        <input type="text" id="plateInp" class="input-plate" required minlength="7" maxlength="7"  onkeypress="return isPlate(event)" placeholder="aaa0000"><br><br><br>
         <label>Fecha de Salida:</label>
-        <input type="text" id="dateInp" required minlength="10" maxlength="10"><br><br><br>
+        <input type="text" id="dateInp" required minlength="10" maxlength="10" oninput="dateControl()" onkeypress="return isNumber(event)" placeholder="dd/mm/yyyy"><br><br><br>
         <label>Hora de Salida:</label>
-        <input type="text" id="hourInp" required minlength="5" maxlength="5"><br><br><br><br>
+        <input type="text" id="hourInp" required minlength="5" maxlength="5" oninput="hourControl()" onkeypress="return isNumber(event)" placeholder="hh:mm"><br><br><br><br>
     </form>
     <form class="principalForm">
         <button id="button" onclick="getInformation()" >Consultar</button>

@@ -62,20 +62,27 @@ function hourValidation(hour){
         if(houAm==2 || houPm==3){
             if(minT>=0){
                 window.alert(noMov);
+                //return false;   // PRUEBAS JEST
             }else{
                 window.alert(mov);
+               // return true;    // PRUEBAS JEST
             }  
         }else{
             window.alert(mov);
-        }    
+           // return true;    // PRUEBAS JEST
+        }   
+        
     }else{
         window.alert(mov);
+       // return true;    // PRUEBAS JEST
     }
 
 }
 
 
 
-//module.exports=dateValidation;
+// PRUEBAS JEST EXPORTS
+
+//module.exports=dateValidation;     
 //module.exports=plateValidation;
 //module.exports=hourValidation;
