@@ -1,12 +1,7 @@
 function getInformation(){
     //Creacio objetos y recuperacion de informacion
-    console.log = function() {}
+   // console.log = function() {}
     if(formValidation()){
-        plateRestriction =["12","34","56","78","90"];
-        hourAMRestriction1 =7;
-        hourAMRestriction2 =9;
-        hourPMRestriction1 = 16;
-        hourPMRestriction2 = 19;
         function Vehicle(plate){
             this.plate=plate;
         }

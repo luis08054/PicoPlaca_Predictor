@@ -3,15 +3,20 @@
     <script type="text/javascript" src="picoPlacaFunctions/index.js"></script>
     <script type="text/javascript" src="picoPlacaFunctions/functions.js"></script>
     <script type="text/javascript" src="picoPlacaFunctions/validations.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/base.css" />
 <body>
-    <form >
-        <h2>PICO Y PLACA</h2>
-        <label>Placa:</label><br>
-        <input type="text" id="plateInp" required minlength="7" maxlength="7"><br><br>
-        <label>Fecha de Salida:</label><br>
-        <input type="text" id="dateInp" required minlength="10" maxlength="10"><br><br>
-        <label>Hora de Salida:</label><br>
-        <input type="text" id="hourInp" required minlength="5" maxlength="5"><br><br>
+    <form class="principalForm">
+        <h2>PICO Y PLACA</h2><br>
+    </form>
+    <form class="secondForm ">
+        <label>Placa:</label>
+        <input type="text" id="plateInp" required minlength="7" maxlength="7"><br><br><br>
+        <label>Fecha de Salida:</label>
+        <input type="text" id="dateInp" required minlength="10" maxlength="10"><br><br><br>
+        <label>Hora de Salida:</label>
+        <input type="text" id="hourInp" required minlength="5" maxlength="5"><br><br><br><br>
+    </form>
+    <form class="principalForm">
         <button id="button" onclick="getInformation()" >Consultar</button>
     </form>
 </body>

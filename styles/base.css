@@ -1,0 +1,36 @@
+.principalForm{
+    text-align: center;
+    font-size: 2vw;
+}
+
+label{
+    font-weight: 600;
+    min-width: 20%;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+h2{
+    font-size: 3.5vw;
+    text-decoration: underline;
+}
+
+.secondForm{
+    text-align: left;
+    margin-left: 33%;
+}
+
+button{
+    font-size: 2.5vw;
+    color: white;
+    background-color: forestgreen;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+input{
+    font-size: 1.5vw;
+    background: aliceblue;
+    border-radius: 0.7vw;
+    width: 15vw;
+}
